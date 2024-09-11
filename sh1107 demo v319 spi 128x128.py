@@ -15,6 +15,7 @@ import array
 
 
 # basic test code SPI
+# can we remove the miso pin from the arguments? I don't think it is used and the connection is not specified in the SPI demo files.
 # spi1 = SPI(1, baudrate=1_000_000, sck=Pin(14), mosi=Pin(15), miso=Pin(12))
 # display = sh1107.SH1107_SPI(64, 128, spi1, Pin(21), Pin(20), Pin(13))
 # display.sleep(False)
