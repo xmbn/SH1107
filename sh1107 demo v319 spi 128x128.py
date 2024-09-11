@@ -17,7 +17,7 @@ import array
 # basic test code SPI
 # spi1 = SPI(1, baudrate=1_000_000, sck=Pin(14), mosi=Pin(15), miso=Pin(12))
 # display = sh1107.SH1107_SPI(64, 128, spi1, Pin(21), Pin(20), Pin(13))
-# display.sleep(False)flip
+# display.sleep(False)
 # display.fill(0)
 # display.text('SH1107', 0, 0, 1)
 # display.text('driver', 0, 8, 1)
